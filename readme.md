@@ -21,9 +21,9 @@
 * some defaults around react to get you started
 
 # The challenge
-Using React (or another view library) but no other supporting libraries (e.g. jQuery, lodash, etc.), create a monthly calendar UI (see example figure below) that showcases all the events happening at the Brooklyn Bowl bar/music hall for the _current_ month, whatever month that is.
+Using React, Angular, or another view library (but no supporting libraries like jQuery or lodash), create a monthly calendar UI (see example figure below) that showcases all the events happening at the Brooklyn Bowl bar/music hall for the _current_ month, whatever month that is.
 
-Much like Google Calendar, the calendar UI should show numbered days of the month. Events happening on a particular day should show their start time and event name on the given day in the calendar and be listed in start time order. Some events, like Happy Hour, occur multiple times, while other events occur only once.
+Much like Google Calendar, the calendar UI should show numbered days of the month. Events happening on a particular day should show their start time and event name on the given day in the calendar and be listed in start time order. Some events, like Happy Hour, occur multiple times, while other events occur only once. Events that begin on one day but end on another should be displayed on the first and last day, as well as any days in the middle.
 
 ![Example](https://cloud.githubusercontent.com/assets/3581705/13577019/693a01e0-e45e-11e5-857f-b42f5752f6e8.png)
 Each row represents 7 days (Mon - Sun). Days of the month are numbered at the corner of each box.
@@ -39,4 +39,4 @@ Note: webpack was not included, you may use it if you wish or write a single mon
 * Demonstrated concern for the user experience.
 * Ability to communicate the results, what was built, and what could be better if given more time.
 
-This isn't a test of ability to work in isolation. Ask questions when the spec is unclear by contacting Henry at henry@live.xyz.
+This isn't a test of ability to work in isolation. Ask questions when the spec is unclear by contacting Henry at henry@live.xyz. Or reach out to us on Slack.

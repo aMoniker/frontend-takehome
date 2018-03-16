@@ -21,11 +21,11 @@ describe('a sun-mon calendar with events on each day', function() {
 
   });
 
-  test('should render 1 event on 1/march/2016', function() {
+  test('should render 1 event on 1/march/2018', function() {
 
   });
 
-  test('should render 3 events on 13/march/2016 in start order', function() {
+  test('should render 3 events on 13/march/2018 in start order', function() {
 
   });
 });

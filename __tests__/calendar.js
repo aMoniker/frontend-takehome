@@ -1,10 +1,5 @@
 describe('a sun-mon calendar with events on each day', function() {
 
-  test('should have a working test runner', function() {
-    // Sanity check, feel free to remove this test
-    expect(2).toEqual(2);
-  });
-
   test('should render 4 weeks for the month feb/2015', function() {
 
   });

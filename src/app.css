@@ -10,6 +10,13 @@ table td {
     border: 1px solid black;
     height: 100px;
     vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.day {
+    height: 100%;
+    width: 100%;
 }
 
 .day > .event:nth-child(3n + 1) {
@@ -25,4 +32,9 @@ table td {
 .day .day-number {
     text-align: right;
     font-size: 10px;
+}
+
+.day.trailing {
+    opacity: 0.5;
+    background: rgba(0,0,0,0.2);
 }

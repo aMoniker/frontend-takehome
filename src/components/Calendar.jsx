@@ -116,8 +116,9 @@ class Calendar extends Component {
       }
       count++;
       let index = loop.toDateString();
+      let isTrailing = this.date.getMonth() !== loop.getMonth();
       row.push(
-        <Day date={new Date(loop)} events={this.events[index]} />
+        <Day date={new Date(loop)} events={this.events[index]} isTrailing={isTrailing} />
       );
     }
     rows.push(row); // last row left-over from loop

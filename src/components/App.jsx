@@ -9,7 +9,7 @@ class App extends Component {
 
   render() {
     return (
-      <Calendar events={this.getEvents()} />
+      <Calendar events={this.getEvents()} date={new Date} />
     );
   }
 }

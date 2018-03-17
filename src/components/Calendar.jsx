@@ -127,7 +127,7 @@ class Calendar extends Component {
   }
 
   render() {
-    this.date = new Date;
+    this.date = this.props.date;
     this.parseEvents(this.props.events);
     let rows = this.getDayRows();
 

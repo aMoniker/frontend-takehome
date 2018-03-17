@@ -19,6 +19,17 @@ table td {
     width: 100%;
 }
 
+.day .day-number {
+    text-align: right;
+    font-size: 10px;
+}
+
+.day.trailing {
+    opacity: 0.5;
+    background: rgba(0,0,0,0.2);
+}
+
+
 .day > .event:nth-child(3n + 1) {
     background: skyblue;
 }
@@ -29,12 +40,6 @@ table td {
     background: mediumspringgreen;
 }
 
-.day .day-number {
-    text-align: right;
-    font-size: 10px;
-}
-
-.day.trailing {
-    opacity: 0.5;
-    background: rgba(0,0,0,0.2);
+.day > .event > .event-start-time {
+    margin-right: 5px;
 }

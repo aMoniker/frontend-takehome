@@ -1,6 +1,9 @@
 table {
     width: 100%;
     table-layout:fixed;
+    border-collapse: collapse;
+    max-width: 940px;
+    margin: 0 auto;
 }
 
 table td {
@@ -17,4 +20,9 @@ table td {
 }
 .day > .event:nth-child(3n + 3) {
     background: mediumspringgreen;
+}
+
+.day .day-number {
+    text-align: right;
+    font-size: 10px;
 }

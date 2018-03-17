@@ -10,9 +10,12 @@ class Day extends Component {
     }
 
     return (
-      <div className="day">{events.map((event, i) =>
+      <div className="day">
+      <div className="day-number">{this.props.date.getDate()}</div>
+      {events.map((event, i) =>
         <Event key={i} name={event.name} start={event.start} end={event.end} />
-      )}</div>
+      )}
+      </div>
     );
   }
 }

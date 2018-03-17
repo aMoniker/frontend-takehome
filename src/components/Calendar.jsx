@@ -117,7 +117,7 @@ class Calendar extends Component {
       count++;
       let index = loop.toDateString();
       row.push(
-        <Day date={loop} events={this.events[index]} />
+        <Day date={new Date(loop)} events={this.events[index]} />
       );
     }
     rows.push(row); // last row left-over from loop
@@ -131,7 +131,7 @@ class Calendar extends Component {
     let rows = this.getDayRows();
 
     return (
-      <table>
+      <table cellSpacing="0">
         <thead><tr>
           <th>Monday</th>
           <th>Tuesday</th>
